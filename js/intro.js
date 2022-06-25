@@ -42,7 +42,7 @@ for (let value of s) {
   sum += value;
 }
 console.log("sum :>> ", sum);
-s.delete([2]);
+s.delete(2);
 
 s.clear();
 
